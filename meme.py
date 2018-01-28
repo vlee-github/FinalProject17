@@ -10,7 +10,7 @@ allpokemon = {'Dewgong' : {1 : 'Ice Beam', 2: 'Surf', 3: 'Growl', 4: 'Blizzard',
 'Hitmonchan' : {1 : 'Brick Break', 2:'Fire Punch', 3:'Ice Punch', 4:'Thunder Punch', 'type1': 'fighting', 'type2':'none', 'level':55, 'status':'none', 'hp':171, 'attack':172,'defense':143, 'special attack':95,'special defense':177, 'speed':140},
 'Hitmonlee' : {1 : 'Jump Kick', 2:'High Jump Kick', 3:'Stone Edge', 4:'Poison Jab', 'type1': 'fighting', 'type2':'none', 'level':55, 'status':'none', 'hp':171, 'attack':188,'defense':115, 'special attack':95,'special defense':177, 'speed':152},
 'Onix2' : {1 : 'Earthquake', 2:'Rock Slide', 3:'Tackle', 4:'Stone Edge', 'type1': 'rock', 'type2':'ground', 'level':56, 'status':'none', 'hp':157, 'attack':108,'defense':236, 'special attack':91,'special defense':108, 'speed':136},
-'Machamp' : {1 : 'Cross Chop', 2:'Fire Punch', 3:'Ice Punch', 4:'Thunder Punch', 'type1': 'fighting', 'type2':'none', 'level':58, 'status':'none', 'hp':226, 'attack':210,'defense':152, 'special attack':134,'special defense':158, 'speed':123},
+'Machamp1' : {1 : 'Cross Chop', 2:'Fire Punch', 3:'Ice Punch', 4:'Thunder Punch', 'type1': 'fighting', 'type2':'none', 'level':58, 'status':'none', 'hp':226, 'attack':210,'defense':152, 'special attack':134,'special defense':158, 'speed':123},
 'Gengar1' : {1 : 'Shadow Ball', 2:'Sludge Wave', 3:'Focus Blast', 4:'Thunderbolt', 'type1': 'ghost', 'type2':'poison', 'level':56, 'status':'none', 'hp':185, 'attack':130,'defense':124, 'special attack':203,'special defense':141, 'speed':180},
 'Golbat' : {1 : 'Sludge Bomb', 2:'Wing Attack', 3:'Aerial Ace', 4:'Hyper Fang', 'type1': 'water', 'type2':'none', 'level':56, 'status':'none', 'hp':202, 'attack':147,'defense':136, 'special attack':130,'special defense':141, 'speed':158},
 'Haunter' : {1 : 'Shadow Ball', 2:'Sludge Wave', 3:'Energy Ball', 4:'Thunderbolt', 'type1': 'ghost', 'type2':'poison', 'level':55, 'status':'none', 'hp':166, 'attack':111,'defense':106, 'special attack':183,'special defense':117, 'speed':161},
@@ -23,14 +23,14 @@ allpokemon = {'Dewgong' : {1 : 'Ice Beam', 2: 'Surf', 3: 'Growl', 4: 'Blizzard',
 'Dragonite' : {1 : 'Thunder Punch', 2:'Fire Punch', 3:'Wing Attack', 4:'Dragon Claw', 'type1': 'dragon', 'type2':'flying', 'level':62, 'status':'none', 'hp':243, 'attack':229,'defense':181, 'special attack':187,'special defense':187, 'speed':162},
 'Venusaur' : {1 : 'Energy Ball', 2:'Sludge Bomb', 3:'Earthquake', 4:'Tackle', 'type1': 'grass', 'type2':'poison', 'level':60, 'status':'none', 'hp':222, 'attack':159,'defense':161, 'special attack':181,'special defense':181, 'speed':157},
 'Blastoise' : {1 : 'Surf', 2:'Ice Beam', 3:'Tail Whip', 4:'Water Gun', 'type1': 'water', 'type2':'none', 'level':60, 'status':'none', 'hp':221, 'attack':161,'defense':181, 'special attack':163,'special defense':187, 'speed':155},
-'Charizard' : {1 : 'Flamethrower', 2:'Fire Blast', 3:'Aerial Ace', 4:'Wing Attack', 'type1': 'fire', 'type2':'flying', 'level':60, 'status':'none', 'hp':220, 'attack':162,'defense':155, 'special attack':192,'special defense':163, 'speed':181},
+'Charizard' : {1 : 'Flamethrower', 2:'Fire Blast', 3:'Aerial Ace', 4:'Dragon Claw', 'type1': 'fire', 'type2':'flying', 'level':60, 'status':'none', 'hp':220, 'attack':162,'defense':155, 'special attack':192,'special defense':163, 'speed':181},
 'Alakazam' : {1 : 'Psychic', 2:'Shadow Ball', 3:'Focus Blast', 4:'Confusion', 'type1': 'psychic', 'type2':'none', 'level':55, 'status':'none', 'hp':177, 'attack':111,'defense':106, 'special attack':205,'special defense':161, 'speed':188},
-'Gengar' : {1 : 'Shadow Ball', 2:'Sludge Wave', 3:'Focus Blast', 4:'Thunderbolt', 'type1': 'ghost', 'type2':'poison', 'level':55, 'status':'none', 'hp':182, 'attack':128,'defense':122, 'special attack':199,'special defense':139, 'speed':177},
-'Machamp' : {1 : 'Cross Chop', 2:'Fire Punch', 3:'Ice Punch', 4:'Thunder Punch', 'type1': 'fighting', 'type2':'none', 'level':55, 'status':'none', 'hp':215, 'attack':199,'defense':144, 'special attack':128,'special defense':150, 'speed':117}}
+'Gengar3' : {1 : 'Shadow Ball', 2:'Sludge Wave', 3:'Focus Blast', 4:'Thunderbolt', 'type1': 'ghost', 'type2':'poison', 'level':55, 'status':'none', 'hp':182, 'attack':128,'defense':122, 'special attack':199,'special defense':139, 'speed':177},
+'Machamp2' : {1 : 'Cross Chop', 2:'Fire Punch', 3:'Ice Punch', 4:'Thunder Punch', 'type1': 'fighting', 'type2':'none', 'level':55, 'status':'none', 'hp':215, 'attack':199,'defense':144, 'special attack':128,'special defense':150, 'speed':117}}
 #define rival pokemon
 rivalpokemon = {'Venusaur' : {1 : 'Energy Ball', 2:'Sludge Bomb', 3:'Earthquake', 4:'Tackle', 'type1': 'grass', 'type2':'poison', 'level':65, 'status':'none', 'hp':240, 'attack':172,'defense':174, 'special attack':196,'special defense':196, 'speed':170},
 'Blastoise' : {1 : 'Surf', 2:'Ice Beam', 3:'Tail Whip', 4:'Water Gun', 'type1': 'water', 'type2':'none', 'level':65, 'status':'none', 'hp':238, 'attack':174,'defense':196, 'special attack':176,'special defense':202, 'speed':167},
-'Charizard' : {1 : 'Flamethrower', 2:'Fire Blast', 3:'Aerial Ace', 4:'Wing Attack', 'type1': 'fire', 'type2':'flying', 'level':65, 'status':'none', 'hp':237, 'attack':175,'defense':167, 'special attack':207,'special defense':176, 'speed':196},
+'Charizard' : {1 : 'Flamethrower', 2:'Fire Blast', 3:'Aerial Ace', 4:'Thunder Punch', 'type1': 'fire', 'type2':'flying', 'level':65, 'status':'none', 'hp':237, 'attack':175,'defense':167, 'special attack':207,'special defense':176, 'speed':196},
 'Pidgeot' : {1 : 'Wing Attack', 2:'Tackle', 3:'Aerial Ace', 4:'Growl', 'type1': 'normal', 'type2':'flying', 'level':61, 'status':'none', 'hp':229, 'attack':159,'defense':153, 'special attack':147,'special defense':147, 'speed':185},
 'Alakazam' : {1 : 'Psychic', 2:'Shadow Ball', 3:'Focus Blast', 4:'Confusion', 'type1': 'psychic', 'type2':'none', 'level':59, 'status':'none', 'hp':189, 'attack':119,'defense':113, 'special attack':219,'special defense':172, 'speed':202},
 'Rhydon' : {1 : 'Stone Edge', 2:'Tackle', 3:'Earthquake', 4:'Rock Slide', 'type1': 'ground', 'type2':'rock', 'level':61, 'status':'none', 'hp':256, 'attack':220,'defense':208, 'special attack':117,'special defense':117, 'speed':111},
@@ -39,46 +39,48 @@ rivalpokemon = {'Venusaur' : {1 : 'Energy Ball', 2:'Sludge Bomb', 3:'Earthquake'
 'Arcanine' : {1 : 'Flamethrower', 2:'Aerial Ace', 3:'Ember', 4:'Thunder Fang', 'type1': 'fire', 'type2':'none', 'level':63, 'status':'none', 'hp':245, 'attack':202,'defense':165, 'special attack':190,'special defense':165, 'speed':183}}
 
 #define the moves
-allmoves = {'Hydro Pump' : {'type':'water', 'category':'special', 'bp':120, 'effect':'none', 'accuracy':80},
-'Surf' : {'type':'water', 'category':'special', 'bp':70, 'effect':'none', 'accuracy':100},
-'Blizzard' : {'type':'ice', 'category':'special', 'bp':40, 'effect':'none', 'accuracy':100},
+allmoves = {'Hydro Pump' : {'type':'water', 'category':'special', 'bp':110, 'effect':'none', 'accuracy':80},
+'Surf' : {'type':'water', 'category':'special', 'bp':90, 'effect':'none', 'accuracy':100},
+'Blizzard' : {'type':'ice', 'category':'special', 'bp':110, 'effect':'none', 'accuracy':70},
 'Water Pulse' : {'type':'water', 'category':'special', 'bp':60, 'effect':'none', 'accuracy':100},
-'Psychic' : {'type':'psychic', 'category':'special', 'bp':80, 'effect':'none', 'accuracy':100},
-'Ice Beam' : {'type':'ice', 'category':'special', 'bp':80, 'effect':'none', 'accuracy':100},
+'Psychic' : {'type':'psychic', 'category':'special', 'bp':90, 'effect':'none', 'accuracy':100},
+'Ice Beam' : {'type':'ice', 'category':'special', 'bp':90, 'effect':'none', 'accuracy':100},
 'Growl' : {'type':'normal', 'category':'status', 'effect':'lowerattackby1', 'accuracy':100},
 'Shadow Ball' : {'type':'ghost', 'category':'special','bp':80, 'effect':'none', 'accuracy':100},
-'Energy Ball' : {'type':'grass', 'category':'special','bp':80, 'effect':'none', 'accuracy':100},
-'Thunderbolt' : {'type':'electric', 'category':'special', 'bp':80, 'effect':'none', 'accuracy':100},
+'Energy Ball' : {'type':'grass', 'category':'special','bp':90, 'effect':'none', 'accuracy':100},
+'Thunderbolt' : {'type':'electric', 'category':'special', 'bp':90, 'effect':'none', 'accuracy':100},
 'Tackle' : {'type':'normal', 'category':'physical', 'bp':40, 'effect':'none', 'accuracy':100},
 'Tail Whip' : {'type':'normal', 'category':'status', 'effect':'lowerdefenseby1', 'accuracy':100},
-'Cross Chop' : {'type':'fighting', 'category':'physical', 'bp':120, 'effect':'none', 'accuracy':100},
+'Cross Chop' : {'type':'fighting', 'category':'physical', 'bp':100, 'effect':'none', 'accuracy':100},
 'Fire Punch' : {'type':'fire', 'category':'physical', 'bp':75, 'effect':'10%burn', 'accuracy':100},
+'Thunder Punch' : {'type':'electric', 'category':'physical', 'bp':75, 'effect':'none', 'accuracy':100},
 'Ember' : {'type':'fire', 'category':'special', 'bp':40, 'effect':'10%burn', 'accuracy':100},
 'Thunder Punch' : {'type':'electric', 'category':'physical', 'bp':75, 'effect':'none', 'accuracy':100},
 'Ice Punch' : {'type':'ice', 'category':'physical', 'bp':75, 'effect':'none', 'accuracy':100},
 'Earthquake' : {'type':'ground', 'category':'physical', 'bp':100, 'effect':'none', 'accuracy':100},
-'Rock Slide' : {'type':'rock', 'category':'physical', 'bp':80, 'effect':'none', 'accuracy':90},
+'Rock Slide' : {'type':'rock', 'category':'physical', 'bp':75, 'effect':'none', 'accuracy':90},
 'Stone Edge' : {'type':'rock', 'category':'physical', 'bp':100, 'effect':'none', 'accuracy':80},
 'Aqua Tail' : {'type':'water', 'category':'physical', 'bp':90, 'effect':'none', 'accuracy':90},
-'Sludge Wave' : {'type':'poison', 'category':'special', 'bp':90, 'effect':'none', 'accuracy':100},
-'Sludge Bomb' : {'type':'poison', 'category':'special', 'bp':80, 'effect':'none', 'accuracy':100},
-'Focus Blast' : {'type':'fighting', 'category':'special', 'bp':120, 'effect':'none', 'accuracy':75},
+'Sludge Wave' : {'type':'poison', 'category':'special', 'bp':95, 'effect':'none', 'accuracy':100},
+'Sludge Bomb' : {'type':'poison', 'category':'special', 'bp':90, 'effect':'none', 'accuracy':100},
+'Focus Blast' : {'type':'fighting', 'category':'special', 'bp':120, 'effect':'none', 'accuracy':70},
 'Wing Attack' : {'type':'flying', 'category':'physical','bp':60, 'effect':'none', 'accuracy':100},
 'Aerial Ace' : {'type':'flying', 'category':'physical', 'bp':60, 'effect':'none', 'accuracy':100},
-'Jump Kick' : {'type':'fighting', 'category':'physical', 'bp':100, 'effect':'none', 'accuracy':90},
+'Jump Kick' : {'type':'fighting', 'category':'physical', 'bp':100, 'effect':'none', 'accuracy':95},
 'Brick Break' : {'type':'fighting', 'category':'physical', 'bp':75, 'effect':'none', 'accuracy':100},
-'High Jump Kick' : {'type':'fighting', 'category':'physical', 'bp':120, 'effect':'none', 'accuracy':75},
+'High Jump Kick' : {'type':'fighting', 'category':'physical', 'bp':130, 'effect':'none', 'accuracy':90},
 'Dragon Claw' : {'type':'dragon', 'category':'physical', 'bp':80, 'effect':'none', 'accuracy':100},
-'Flamethrower' : {'type':'fire', 'category':'special', 'bp':80, 'effect':'10%burn', 'accuracy':100},
-'Fire Blast' : {'type':'fire', 'category':'special', 'bp':120, 'effect':'10%burn', 'accuracy':80},
-'Confusion' : {'type':'psychic', 'category':'special', 'bp':40, 'effect':'none', 'accuracy':100},
+'Flamethrower' : {'type':'fire', 'category':'special', 'bp':90, 'effect':'10%burn', 'accuracy':100},
+'Fire Blast' : {'type':'fire', 'category':'special', 'bp':110, 'effect':'10%burn', 'accuracy':85},
+'Confusion' : {'type':'psychic', 'category':'special', 'bp':50, 'effect':'none', 'accuracy':100},
+'Dragon Pulse' : {'type':'dragon', 'category':'special', 'bp':85, 'effect':'none', 'accuracy':100},
 'Hyper Fang' : {'type':'normal', 'category':'physical', 'bp':80, 'effect':'none', 'accuracy':90},
 'Gunk Shot' : {'type':'poison', 'category':'physical','bp':120, 'effect':'none', 'accuracy':80},
 'Fire Fang' : {'type':'fire', 'category':'physical', 'bp':65, 'effect':'10%burn', 'accuracy':95},
 'Thunder Fang' : {'type':'electric', 'category':'physical', 'bp':65, 'effect':'none', 'accuracy':95},
 'Poison Jab' : {'type':'poison', 'category':'physical', 'bp':80, 'effect':'none', 'accuracy':100},
 'Waterfall' : {'type':'water', 'category':'physical', 'bp':80, 'effect':'none', 'accuracy':100}}
-team = {"Charizard":allpokemon["Charizard"], "Venusaur":allpokemon["Venusaur"], "Blastoise":allpokemon["Blastoise"], "Alakazam":allpokemon["Alakazam"], "Gengar":allpokemon["Gengar"],"Machamp":allpokemon["Machamp"]}
+team = {"Charizard":allpokemon["Charizard"], "Venusaur":allpokemon["Venusaur"], "Blastoise":allpokemon["Blastoise"], "Alakazam":allpokemon["Alakazam"], "Gengar":allpokemon["Gengar3"],"Machamp":allpokemon["Machamp2"]}
 money = 99999
 #get name
 class Player(object):
@@ -87,12 +89,13 @@ class Player(object):
 player = Player(input("What is your name?\n"))
 #get rival name
 rivalname = input("What is your rival's name?\n")
+rivalname = "Champion"+rivalname
 rival = {}
 #define statchanges
 pokemonstatchanges = []
 opponentstatchanges = []
 #define items/bag
-bag = {}
+bag = {"Max Potion":100000, "Revive":100000}
 shop = {"Max Potion":{"Cost": 2500},
 "Full Restore":{"Cost": 3000},
 "Full Heal":{"Cost":600},
@@ -133,10 +136,10 @@ while t == 5:
 print("You found a cheat code so you skipped to the Elite Four instead of doing actual Pokemon stuff.")
 #define ai teams
 opponents = {rivalname:rival,
-"Lorelei" : {"Dewgong":allpokemon["Dewgong"], "Cloyster":allpokemon["Cloyster"], "Slowbro":allpokemon["Slowbro"], "Jynx":allpokemon["Jynx"], "Lapras":allpokemon["Lapras"]},
-"Bruno" : {"Onix":allpokemon["Onix1"], "Hitmonchan":allpokemon["Hitmonchan"], "Hitmonlee":allpokemon["Hitmonlee"], "Onix":allpokemon["Onix2"], "Machamp":allpokemon["Machamp"]},
-"Agatha" : {"Gengar":allpokemon["Gengar1"], "Golbat":allpokemon["Golbat"], "Haunter":allpokemon["Haunter"], "Arbok":allpokemon["Arbok"], "Gengar":allpokemon["Gengar2"]},
-"Lance" : {"Gyarados":allpokemon["Gyarados"], "Dragonair":allpokemon["Dragonair1"], "Dragonair":allpokemon["Dragonair2"], "Aerodactyl":allpokemon["Aerodactyl"], "Dragonite":allpokemon["Dragonite"]}}
+"Elite Four Lorelei" : {"Dewgong":allpokemon["Dewgong"], "Cloyster":allpokemon["Cloyster"], "Slowbro":allpokemon["Slowbro"], "Jynx":allpokemon["Jynx"], "Lapras":allpokemon["Lapras"]},
+"Elite Four Bruno" : {"Onix 1":allpokemon["Onix1"], "Hitmonchan":allpokemon["Hitmonchan"], "Hitmonlee":allpokemon["Hitmonlee"], "Onix 2":allpokemon["Onix2"], "Machamp":allpokemon["Machamp1"]},
+"Elite Four Agatha" : {"Gengar 1":allpokemon["Gengar1"], "Golbat":allpokemon["Golbat"], "Haunter":allpokemon["Haunter"], "Arbok":allpokemon["Arbok"], "Gengar 2":allpokemon["Gengar2"]},
+"Elite Four Lance" : {"Gyarados":allpokemon["Gyarados"], "Dragonair 1":allpokemon["Dragonair1"], "Dragonair 2":allpokemon["Dragonair2"], "Aerodactyl":allpokemon["Aerodactyl"], "Dragonite":allpokemon["Dragonite"]}}
 opponents2 = copy.deepcopy(opponents)
 #def buying stuff
 rr = 5
@@ -199,6 +202,8 @@ def firemove():
         else:
             type = .5
     elif team2[next(iter(team2))]['type2'] == 'rock':
+        type = .5
+    elif team2[next(iter(team2))]['type1'] == 'fire':
         type = .5
     else:
         type = 1
@@ -347,6 +352,8 @@ def groundmove():
             type = 1
         elif team2[next(iter(team2))]['type1'] == 'grass':
             type = 1
+        else:
+            type = 2
     elif team2[next(iter(team2))]['type1'] == 'rock':
         type = 2
     elif team2[next(iter(team2))]['type2'] == 'rock':
@@ -363,6 +370,8 @@ def groundmove():
 def electricmove():
     global type
     if team2[next(iter(team2))]['type1'] == 'ground':
+        type = 0
+    elif team2[next(iter(team2))]['type2'] == 'ground':
         type = 0
     elif team2[next(iter(team2))]['type1'] == 'water':
         if team2[next(iter(team2))]['type2'] == 'flying':
@@ -591,6 +600,13 @@ def normalmove():
     else:
         type = 1
 
+def dragonmove():
+    global type
+    if team2[next(iter(team2))]['type1']== 'dragon':
+        type = 2
+    else:
+        type = 1
+
 def firemoveopponent(opponent):
     global type
     if opponents[opponent][next(iter(opponents[opponent]))]['type1'] == 'grass':
@@ -616,6 +632,8 @@ def firemoveopponent(opponent):
         else:
             type = .5
     elif opponents[opponent][next(iter(opponents[opponent]))]['type2'] == 'rock':
+        type = .5
+    elif opponents[opponent][next(iter(opponents[opponent]))]['type1'] == 'fire':
         type = .5
     else:
         type = 1
@@ -764,6 +782,8 @@ def groundmoveopponent(opponent):
             type = 1
         elif opponents[opponent][next(iter(opponents[opponent]))]['type1'] == 'grass':
             type = 1
+        else:
+            type = 2
     elif opponents[opponent][next(iter(opponents[opponent]))]['type1'] == 'rock':
         type = 2
     elif opponents[opponent][next(iter(opponents[opponent]))]['type2'] == 'rock':
@@ -780,6 +800,8 @@ def groundmoveopponent(opponent):
 def electricmoveopponent(opponent):
     global type
     if opponents[opponent][next(iter(opponents[opponent]))]['type1'] == 'ground':
+        type = 0
+    elif opponents[opponent][next(iter(opponents[opponent]))]['type2'] == 'ground':
         type = 0
     elif opponents[opponent][next(iter(opponents[opponent]))]['type1'] == 'water':
         if opponents[opponent][next(iter(opponents[opponent]))]['type2'] == 'flying':
@@ -1005,6 +1027,13 @@ def normalmoveopponent(opponent):
         type = .5
     elif opponents[opponent][next(iter(opponents[opponent]))]['type2'] == 'rock':
         type = .5
+    else:
+        type = 1
+
+def dragonmoveopponent(opponent):
+    global type
+    if opponents[opponent][next(iter(opponents[opponent]))]['type1'] == 'dragon':
+        type = 2
     else:
         type = 1
 
@@ -1906,35 +1935,43 @@ def userdamage(opponent, move):
             bugmoveopponent(opponent)
         elif allmoves[move]['type']=='fighting':
             fightingmoveopponent(opponent)
-        else:
+        elif allmoves[move]['type']=='normal':
             normalmoveopponent(opponent)
+        else:
+            dragonmoveopponent(opponent)
         if team2[next(iter(team2))]['type1'] == allmoves[move]['type']:
             stab = 1.5
         elif team2[next(iter(team2))]['type2'] == allmoves[move]['type']:
             stab = 1.5
         else:
             stab = 1
-        if team2[next(iter(team2))]['status']=='burn':
-                    burn = .5
+        if allmoves[move]['category']=='physical':
+            if team2[next(iter(team2))]['status']=='burn':
+                burn = .5
+            else:
+                burn = 1
         else:
             burn = 1
         modifier =  crit*rand*stab*type*burn
         global damage
         damage = ((((((2*level)/5)+2)*power*(a/d))/50)+2)*modifier
         print(next(iter(team2)), 'used', move)
-        if type>1:
-            print("It's super effective!")
-        elif type==0:
+        if type==0:
             print("It had no effect!")
-        elif type<1:
-            print("It's not very effective!")
-        o = int(damage)
-        if opponents[opponent][next(iter(opponents[opponent]))]['hp']-o<0:
-            o=opponents[opponent][next(iter(opponents[opponent]))]['hp']
-        if o>1:
-            print(next(iter(opponents[opponent])), "lost", o, "hit points!")
         else:
-            print(next(iter(opponents[opponent])), "lost", o, "hit point!")
+            if type<1:
+                print("It's not very effective!")
+            elif type>1:
+                print("It's super effective!")
+            o = int(damage)
+            if opponents[opponent][next(iter(opponents[opponent]))]['hp']-o<0:
+                o=opponents[opponent][next(iter(opponents[opponent]))]['hp']
+            if o>1:
+                print(next(iter(opponents[opponent])), "lost", o, "hit points!")
+            else:
+                print(next(iter(opponents[opponent])), "lost", o, "hit point!")
+            if crit == 1.5:
+                print("A critical hit!")
         x = opponents[opponent][next(iter(opponents[opponent]))]['hp']-o
         opponents[opponent][next(iter(opponents[opponent]))]['hp'] = x
         if allmoves[move]['effect']=='10%burn':
@@ -2186,39 +2223,47 @@ def opponentdamage(opponent, opponentmove):
             bugmove()
         elif allmoves[opponentmove]['type']=='fighting':
             fightingmove()
-        else:
+        elif allmoves[opponentmove]['type']=='normal':
             normalmove()
+        else:
+            dragonmove()
         if opponents[opponent][next(iter(opponents[opponent]))]['type1'] == allmoves[opponentmove]['type']:
             stab = 1.5
         elif opponents[opponent][next(iter(opponents[opponent]))]['type2'] == allmoves[opponentmove]['type']:
             stab = 1.5
         else:
             stab = 1
-        if opponents[opponent][next(iter(opponents[opponent]))]['status']=='burn':
-            burn = .5
+        if allmoves[opponentmove]['category']=='physical':
+            if opponents[opponent][next(iter(opponents[opponent]))]['status']=='burn':
+                burn = .5
+            else:
+                burn = 1
         else:
             burn = 1
         modifier =  crit*rand*stab*type*burn
         global damage
         damage = ((((((2*level)/5)+2)*power*(a/d))/50)+2)*modifier
         print(next(iter(opponents[opponent])), "used", opponentmove)
-        if type>1:
-            print("It's super effective!")
-        elif type==0:
+        if type==0:
             print("It had no effect!")
-        elif type<1:
-            print("It's not very effective!")
-        o = int(damage)
-        if team2[next(iter(team2))]['hp']-o<0:
-            o=team2[next(iter(team2))]['hp']
-        if o>1:
-            print(next(iter([next(iter(team2))])), "lost", o, "hit points!")
-            x = team2[next(iter(team2))]['hp']-o
-            team2[next(iter(team2))]['hp'] = x
         else:
-            print(next(iter([next(iter(team2))])), "lost", o, "hit point!")
-            x = team2[next(iter(team2))]['hp']-o
-            team2[next(iter(team2))]['hp'] = x
+            if type<1:
+                print("It's not very effective!")
+            elif type>1:
+                print("It's super effective!")
+            o = int(damage)
+            if team2[next(iter(team2))]['hp']-o<0:
+                o=team2[next(iter(team2))]['hp']
+            if o>1:
+                print(next(iter([next(iter(team2))])), "lost", o, "hit points!")
+                x = team2[next(iter(team2))]['hp']-o
+                team2[next(iter(team2))]['hp'] = x
+            else:
+                print(next(iter([next(iter(team2))])), "lost", o, "hit point!")
+                x = team2[next(iter(team2))]['hp']-o
+                team2[next(iter(team2))]['hp'] = x
+            if crit == 1.5:
+                print("A critical hit!")
         if allmoves[opponentmove]['effect']=='10%burn':
             h = random.randint(1,10)
             h=1
@@ -2367,22 +2412,22 @@ def battle(opponent, cash):
             global q
             global w
             global money
-            item = input("Which item would you like to use?\n")
-            item = item.title()
             v=1
             while v == 1:
+                item = input("Which item would you like to use?\n")
+                item = item.title()
                 if item == "Max Potion":
                     print(party)
                     aa=input("Which Pokemon would you like to heal up?\n")
                     aa=aa.title()
                     u=1
                     while u==1:
-                        if team2[aa]['hp']==0:
+                        if aa not in team2:
+                            print("That is not a Pokemon in your party!")
+                        elif team2[aa]['hp']==0:
                             print(aa, "has already fainted!")
                         elif team2[aa]['hp']==team[aa]['hp']:
                             print("It will have no effect!")
-                        elif aa not in team2:
-                            print(aa, "is not a Pokemon in your party!")
                         else:
                             bb=team[aa]['hp']-team2[aa]['hp']
                             print(aa, "was healed up by",bb, "HP")
@@ -2432,12 +2477,15 @@ def battle(opponent, cash):
                     aa=aa.title()
                     u=1
                     while u==1:
-                        if team2[aa]['hp']==0:
+                        if aa not in team2:
+                            print("That is not a Pokemon in your party!")
+                        elif team2[aa]['hp']==0:
                             print(aa, "was revived!")
                             g = bag[item]-1
                             bag[item]=g
                             if g == 0:
                                 del bag[item]
+                            party3.append(aa)
                             w=team[aa]['hp']/2
                             team2[aa]['hp']=int(w)
                             m = random.randint(1,4)
@@ -2472,10 +2520,8 @@ def battle(opponent, cash):
                                                 w = list(team2.keys()).index(q)
                                                 shifting()
                                                 v=7
-                        elif team2[aa]['hp']==team[aa]['hp']:
+                        elif team2[aa]['hp']>0:
                             print("It will have no effect!")
-                        else:
-                            print(aa, "is not a Pokemon in your party!")
                         u=2
                     v=2
                 elif item == "Full Heal":
@@ -2484,7 +2530,9 @@ def battle(opponent, cash):
                     aa=aa.title()
                     u=1
                     while u==1:
-                        if team2[aa]['status']!='none':
+                        if aa not in team2:
+                            print("That is not a Pokemon in your party!")
+                        elif team2[aa]['status']!='none':
                             print(aa, "was healed!")
                             g = bag[item]-1
                             bag[item]=g
@@ -2525,8 +2573,6 @@ def battle(opponent, cash):
                                                 v=7
                         elif team2[aa]['status']=='none':
                             print("It will have no effect!")
-                        else:
-                            print(aa, "is not a Pokemon in your party!")
                         u=2
                     v=2
                 elif item == "Full Restore":
@@ -2535,7 +2581,9 @@ def battle(opponent, cash):
                     aa=aa.title()
                     u=1
                     while u==1:
-                        if team2[aa]['hp']!=team[aa]['hp']:
+                        if aa not in team2:
+                            print("That is not a Pokemon in your party!")
+                        elif team2[aa]['hp']!=team[aa]['hp']:
                             print(aa, "was healed!")
                             g = bag[item]-1
                             bag[item]=g
@@ -2622,8 +2670,6 @@ def battle(opponent, cash):
                                     print("It will have no effect!")
                                 elif team2[aa]['status']=='none':
                                     print("It will have no effect!")
-                                else:
-                                    print(aa, "is not a Pokemon in your party!")
                         u=2
                     v=2
                 elif item == "Back":
@@ -2682,6 +2728,9 @@ def battle(opponent, cash):
                     print(next(iter(opponents[opponent])), "fainted!")
                     opponentstatchanges.clear()
                     del opponents[opponent][next(iter(opponents[opponent]))]
+                    if len(opponents[opponent])>0:
+                        print("...")
+                        print("%s sent out %s!"%(opponent, next(iter(opponents[opponent]))))
             print("Your %s: %s HP"%(next(iter(team2)), team2[next(iter(team2))]['hp']))
             print("%s's %s: %s HP"%(opponent, next(iter(opponents[opponent])), opponents[opponent][next(iter(opponents[opponent]))]['hp']))
         elif g == "Switch":
@@ -2692,8 +2741,6 @@ def battle(opponent, cash):
                 q=q.title()
                 if q == next(iter(team2)):
                     print(q, "is already on the field!")
-                    q = input("Which Pokemon would you like to send out?\n")
-                    q=q.title()
                 elif q == "Back":
                     break
                 elif q not in team2:
@@ -2791,6 +2838,9 @@ def battle(opponent, cash):
                     print(next(iter(opponents[opponent])), "fainted!")
                     opponentstatchanges.clear()
                     del opponents[opponent][next(iter(opponents[opponent]))]
+                    if len(opponents[opponent])>0:
+                        print("...")
+                        print("%s sent out %s!"%(opponent, next(iter(opponents[opponent]))))
                     v = 7
             print("Your %s: %s HP"%(next(iter(team2)), team2[next(iter(team2))]['hp']))
             print("Opponent's %s: %s HP"%(next(iter(opponents[opponent])), opponents[opponent][next(iter(opponents[opponent]))]['hp']))
@@ -2884,6 +2934,9 @@ def battle(opponent, cash):
                         print(next(iter(opponents[opponent])), "fainted!")
                         opponentstatchanges.clear()
                         del opponents[opponent][next(iter(opponents[opponent]))]
+                        if len(opponents[opponent])>0:
+                            print("...")
+                            print("%s sent out %s!"%(opponent, next(iter(opponents[opponent]))))
             elif team2[next(iter(team2))]['speed']==opponents[opponent][next(iter(opponents[opponent]))]['speed']:
                 speedtie=random.randint(1,2)
                 if speedtie==1:
@@ -2954,6 +3007,9 @@ def battle(opponent, cash):
                             print(next(iter(opponents[opponent])), "fainted!")
                             opponentstatchanges.clear()
                             del opponents[opponent][next(iter(opponents[opponent]))]
+                            if len(opponents[opponent])>0:
+                                print("...")
+                                print("%s sent out %s!"%(opponent, next(iter(opponents[opponent]))))
                 else:
                     if allmoves[opponentmove]['category']=='status':
                         opponentstatusmove(opponent, opponentmove)
@@ -2965,6 +3021,9 @@ def battle(opponent, cash):
                                 print(next(iter(opponents[opponent])), "fainted!")
                                 opponentstatchanges.clear()
                                 del opponents[opponent][next(iter(opponents[opponent]))]
+                                if len(opponents[opponent])>0:
+                                    print("...")
+                                    print("%s sent out %s!"%(opponent, next(iter(opponents[opponent]))))
                     else:
                         opponentdamage(opponent,opponentmove)
                         if team2[next(iter(team2))]['hp']>0:
@@ -2976,6 +3035,9 @@ def battle(opponent, cash):
                                     print(next(iter(opponents[opponent])), "fainted!")
                                     opponentstatchanges.clear()
                                     del opponents[opponent][next(iter(opponents[opponent]))]
+                                    if len(opponents[opponent])>0:
+                                        print("...")
+                                        print("%s sent out %s!"%(opponent, next(iter(opponents[opponent]))))
                         else:
                             print(next(iter(team2)), "fainted!")
                             print("dab")
@@ -3012,6 +3074,9 @@ def battle(opponent, cash):
                             print(next(iter(opponents[opponent])), "fainted!")
                             opponentstatchanges.clear()
                             del opponents[opponent][next(iter(opponents[opponent]))]
+                            if len(opponents[opponent])>0:
+                                print("...")
+                                print("%s sent out %s!"%(opponent, next(iter(opponents[opponent]))))
                 else:
                     opponentdamage(opponent,opponentmove)
                     if team2[next(iter(team2))]['hp']>0:
@@ -3023,6 +3088,9 @@ def battle(opponent, cash):
                                 print(next(iter(opponents[opponent])), "fainted!")
                                 opponentstatchanges.clear()
                                 del opponents[opponent][next(iter(opponents[opponent]))]
+                                if len(opponents[opponent])>0:
+                                    print("...")
+                                    print("%s sent out %s!"%(opponent, next(iter(opponents[opponent]))))
                     else:
                         print(next(iter(team2)), "fainted!")
                         pokemonstatchanges.clear()
@@ -3102,6 +3170,7 @@ def battle(opponent, cash):
                         opponentstatchanges.clear()
                         del opponents[opponent][next(iter(opponents[opponent]))]
                         if len(opponents[opponent])!=0:
+                            print("...")
                             print(opponent, "sent out %s!" %(next(iter(opponents[opponent]))))
             if len(opponents[opponent])==0:
                 break
@@ -3118,14 +3187,18 @@ def battle(opponent, cash):
         print("%s beat %s. %s got $%s."%(player.name, opponent, player.name, cash))
         money = money+cash
 #define the battles
-battle("Lorelei", 100)
+battle("Elite Four Lorelei", 100)
 if len(party3)!=0:
-    battle("Bruno", 100)
+    print("...")
+    battle("Elite Four Bruno", 100)
     if len(party3)!=0:
-        battle("Agatha", 100)
+        print("...")
+        battle("Elite Four Agatha", 100)
         if len(party3)!=0:
-            battle("Lance", 100)
+            print("...")
+            battle("Elite Four Lance", 100)
             if len(party3)!=0:
+                print("...")
                 battle(rivalname, 100)
                 if len(party3)!=0:
                     print("You're now the champion. GG")
