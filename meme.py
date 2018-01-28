@@ -81,7 +81,7 @@ allmoves = {'Hydro Pump' : {'type':'water', 'category':'special', 'bp':110, 'eff
 'Poison Jab' : {'type':'poison', 'category':'physical', 'bp':80, 'effect':'none', 'accuracy':100},
 'Waterfall' : {'type':'water', 'category':'physical', 'bp':80, 'effect':'none', 'accuracy':100}}
 team = {"Charizard":allpokemon["Charizard"], "Venusaur":allpokemon["Venusaur"], "Blastoise":allpokemon["Blastoise"], "Alakazam":allpokemon["Alakazam"], "Gengar":allpokemon["Gengar3"],"Machamp":allpokemon["Machamp2"]}
-money = 99999
+money = 9999999
 #get name
 class Player(object):
     def __init__(self, name):
@@ -95,7 +95,7 @@ rival = {}
 pokemonstatchanges = []
 opponentstatchanges = []
 #define items/bag
-bag = {"Max Potion":100000, "Revive":100000}
+bag = {}
 shop = {"Max Potion":{"Cost": 2500},
 "Full Restore":{"Cost": 3000},
 "Full Heal":{"Cost":600},
